@@ -1,0 +1,25 @@
+{
+  "name": "ts-advanced-fsm",
+  "version": "1.0.0",
+  "description": "A generic Finite State Machine library with mod-three as an example",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "bundle": "esbuild src/index.ts --bundle --outfile=demo-web/bundle.js --format=iife --global-name=FSM",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "clean": "rm -rf dist node_modules"
+  },
+  "keywords": ["fsm", "finite-state-machine", "automaton"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.0",
+    "esbuild": "^0.20.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}

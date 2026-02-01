@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mod Three FSM Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mod Three FSM</h1>
+    <p class="subtitle">Compute binary number mod 3 using a Finite State Machine</p>
+
+    <div class="input-group">
+      <label for="binary-input">Enter binary number:</label>
+      <input
+        type="text"
+        id="binary-input"
+        placeholder="1101"
+        autocomplete="off"
+      >
+      <p id="error-message" class="error-message"></p>
+    </div>
+
+    <div class="result">
+      <p class="result-label">Result (remainder)</p>
+      <p class="result-value" id="result">-</p>
+      <p class="result-decimal" id="decimal-info"></p>
+    </div>
+
+    <div class="fsm-diagram">
+      <h3>Current State</h3>
+      <div class="states">
+        <div>
+          <div class="state" id="state-s0">S0</div>
+          <p class="state-label">mod 3 = 0</p>
+        </div>
+        <div>
+          <div class="state" id="state-s1">S1</div>
+          <p class="state-label">mod 3 = 1</p>
+        </div>
+        <div>
+          <div class="state" id="state-s2">S2</div>
+          <p class="state-label">mod 3 = 2</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="bundle.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
