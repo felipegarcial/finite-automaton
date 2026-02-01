@@ -1,4 +1,4 @@
-# Finite Automaton - Advanced Exercise (TypeScript)
+# Finite Automaton
 
 A generic Finite State Machine library with the mod-three function as an example.
 
