@@ -2,7 +2,7 @@
 
 A generic Finite State Machine library with the mod-three function as an example.
 
-**[Live Demo](https://felipegarcial.github.io/finite-automaton/)**
+**<a href="https://felipegarcial.github.io/finite-automaton/" target="_blank">Live Demo</a>**
 
 ## Overview
 
