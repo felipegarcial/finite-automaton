@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "bundle": "esbuild src/index.ts --bundle --outfile=demo-web/bundle.js --format=iife --global-name=FSM",
+    "bundle": "esbuild index.ts --bundle --outfile=docs/bundle.js --format=iife --global-name=FSM",
     "test": "jest",
     "test:watch": "jest --watch",
     "clean": "rm -rf dist node_modules"

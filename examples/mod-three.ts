@@ -3,7 +3,7 @@
  * Computes the remainder of an unsigned binary integer divided by 3.
  */
 
-import { FiniteAutomaton } from "../fsm";
+import { FiniteAutomaton } from "../lib";
 
 const TRANSITIONS = new Map<string, Map<string, string>>([
   ["S0", new Map([["0", "S0"], ["1", "S1"]])],

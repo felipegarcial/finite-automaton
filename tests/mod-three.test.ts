@@ -2,8 +2,8 @@
  * Unit tests for the mod-three implementation.
  */
 
-import { InvalidInputError } from "../src/fsm";
-import { modThree, createModThreeFSM } from "../src/examples/mod-three";
+import { InvalidInputError } from "../lib";
+import { modThree, createModThreeFSM } from "../examples/mod-three";
 
 // =============================================================================
 // Group 1: Examples from the exercise PDF (1 test, 5 assertions)

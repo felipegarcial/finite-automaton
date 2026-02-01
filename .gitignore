@@ -4,8 +4,7 @@ node_modules/
 # Build outputs
 dist/
 
-# Generated bundle (can be regenerated with npm run bundle)
-demo-web/bundle.js
+# Note: bundle.js is committed for GitHub Pages
 
 # IDE
 .idea/

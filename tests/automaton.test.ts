@@ -6,7 +6,7 @@ import {
   FiniteAutomaton,
   InvalidConfigurationError,
   InvalidInputError,
-} from "../src/fsm";
+} from "../lib";
 
 // =============================================================================
 // Group 1: Valid Configuration (1 test, 4 assertions)
